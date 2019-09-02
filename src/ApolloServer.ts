@@ -4,7 +4,8 @@ import { ApolloServerBase, GraphQLOptions } from 'apollo-server-core';
 import { graphQLServiceWorker } from './serviceWorkerApollo';
 
 export class ApolloServer extends ApolloServerBase {
-    activate(path = '/graphql') {
+    installListener(path = '/graphql') {
+        console.log('activated');
         self.addEventListener('fetch', (event: any) => {
             const { request } = event;
             const url = new URL(request.url);

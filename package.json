@@ -1,7 +1,7 @@
 {
     "name": "apollo-server-service-worker",
     "version": "1.0.0",
-    "main": "index.js",
+    "main": "dist/index.js",
     "author": "Stu Kabakoff <sakabako@gmail.com>",
     "license": "MIT",
     "dependencies": {

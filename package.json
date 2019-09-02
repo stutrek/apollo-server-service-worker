@@ -1,0 +1,17 @@
+{
+    "name": "apollo-server-service-worker",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "Stu Kabakoff <sakabako@gmail.com>",
+    "license": "MIT",
+    "dependencies": {
+        "apollo-server-core": "^2.9.2",
+        "apollo-server-env": "^2.4.3",
+        "graphql-subscriptions": "^1.1.0",
+        "graphql-tools": "^4.0.5",
+        "import": "^0.0.6"
+    },
+    "devDependencies": {
+        "typescript": "^3.6.2"
+    }
+}

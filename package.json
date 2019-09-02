@@ -1,9 +1,13 @@
 {
     "name": "apollo-server-service-worker",
-    "version": "1.0.0",
+    "version": "0.0.1",
     "main": "dist/index.js",
-    "author": "Stu Kabakoff <sakabako@gmail.com>",
+    "author": "Stu Kabakoff <stutrek@gmail.com>",
     "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com:stutrek/apollo-server-service-worker.git"
+    },
     "dependencies": {
         "apollo-server-core": "^2.9.2",
         "apollo-server-env": "^2.4.3",

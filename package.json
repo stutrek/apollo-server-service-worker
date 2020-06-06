@@ -9,7 +9,7 @@
         "url": "https://github.com:stutrek/apollo-server-service-worker.git"
     },
     "dependencies": {
-        "apollo-server-core": "^2.9.2",
+        "apollo-server-core": "^2.14.2",
         "apollo-server-env": "^2.4.3",
         "graphql-subscriptions": "^1.1.0",
         "graphql-tools": "^4.0.5",
